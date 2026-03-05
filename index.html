@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Connection | Nihal Khan - AC Expert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #080808; color: #ffffff; scroll-behavior: smooth; }
+        .serif { font-family: 'Marcellus', serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .red-gradient { background: linear-gradient(135deg, #ff4141 0%, #a30000 100%); }
+        .card-hover:hover { border-color: #ff4141; transform: translateY(-5px); transition: all 0.4s ease; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 px-6 py-4 glass flex justify-between items-center">
+        <div class="flex items-center gap-4">
+            <img src="1000001630.jpg" alt="Cool Connection Logo" class="h-10 md:h-14 w-auto rounded-lg">
+            <span class="text-lg md:text-xl font-extrabold tracking-widest uppercase italic">COOL <span class="text-red-600">CONNECTION</span></span>
+        </div>
+        <div class="flex gap-4">
+            <a href="https://wa.me/919810786389" class="p-3 glass rounded-full hover:bg-green-600 transition"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:9810786389" class="bg-red-600 px-5 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition duration-500">Call Now</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center text-center px-4">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <img src="1000001630.jpg" class="w-full h-full object-cover blur-sm" alt="Banner">
+        </div>
+        <div class="relative z-10">
+            <h4 class="text-red-500 tracking-[0.5em] text-xs font-bold mb-4 uppercase">Proprietor: NIHAL KHAN</h4>
+            <h1 class="serif text-5xl md:text-8xl mb-6">Expert Cooling <br> <i class="font-light">Solutions.</i></h1>
+            <p class="text-gray-400 max-w-xl mx-auto text-sm md:text-lg mb-10 font-light">
+                Professional AC Rental & Repair Services in Shaheen Bagh, Okhla.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="tel:9810786389" class="red-gradient px-8 py-4 rounded-sm text-[10px] font-bold uppercase tracking-widest shadow-lg shadow-red-600/20">Book Repair</a>
+                <a href="#rental" class="border border-white/20 px-8 py-4 rounded-sm text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-black transition">View Rentals</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="serif text-3xl md:text-5xl italic text-red-600 mb-12 border-l-4 border-red-600 pl-6">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="rental" class="glass p-8 card-hover">
+                <h4 class="text-red-500 font-bold uppercase text-xs mb-4 tracking-widest">AC Rental</h4>
+                <h3 class="text-2xl font-bold mb-4 italic">Window & Split AC</h3>
+                <p class="text-gray-500 text-sm mb-6">Available for rent at reasonable prices. High quality cooling for your home or office.</p>
+                <ul class="text-[10px] space-y-2 uppercase font-bold tracking-widest">
+                    <li><i class="fas fa-check text-red-600 mr-2"></i> Window AC Rental</li>
+                    <li><i class="fas fa-check text-red-600 mr-2"></i> Split AC Rental</li>
+                    <li><i class="fas fa-check text-red-600 mr-2"></i> Affordable Price</li>
+                </ul>
+            </div>
+            <div class="glass p-8 card-hover">
+                <h4 class="text-red-500 font-bold uppercase text-xs mb-4 tracking-widest">Deep Cleaning</h4>
+                <h3 class="text-2xl font-bold mb-4 italic text-white">Jet Service</h3>
+                <p class="text-gray-500 text-sm">Professional Deep Jet cleaning for maximum efficiency and fresh air.</p>
+            </div>
+            <div class="glass p-8 card-hover">
+                <h4 class="text-red-500 font-bold uppercase text-xs mb-4 tracking-widest">Components</h4>
+                <h3 class="text-2xl font-bold mb-4 italic text-white">Parts & Repair</h3>
+                <p class="text-gray-500 text-sm">Gas Charging, Cooling Coil repair, PCB repair, and all types of Motors/Compressors available.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 px-6 bg-[#050505]">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="serif text-3xl italic mb-12 text-center uppercase tracking-widest text-red-600">Work Showcase</h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <img src="work1.jpg" alt="Work 1" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work2.jpg" alt="Work 2" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work3.jpg" alt="Work 3" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work4.jpg" alt="Work 4" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work5.jpg" alt="Work 5" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work6.jpg" alt="Work 6" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work7.jpg" alt="Work 7" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work8.jpg" alt="Work 8" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work9.jpg" alt="Work 9" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+                <img src="work10.jpg" alt="Work 10" class="h-64 w-full object-cover rounded glass grayscale hover:grayscale-0 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="serif text-3xl italic text-red-600 mb-6">Our Location</h2>
+                <p class="text-gray-400 mb-2">Address:</p>
+                <p class="text-xl font-bold mb-8 italic">E 3, Shaheen Bagh, Okhla, Jamia Nagar, New Delhi 110025</p>
+                <a href="https://www.google.com/maps?q=28.550005,77.298769" target="_blank" class="bg-white text-black px-6 py-3 text-[10px] font-black uppercase tracking-widest hover:bg-red-600 hover:text-white transition">Get Directions</a>
+            </div>
+            <div class="h-80 rounded overflow-hidden glass">
+                <iframe src="https://maps.google.com/maps?q=28.550005,77.298769&z=15&output=embed" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 px-6 border-t border-white/5 text-center">
+        <img src="1000001630.jpg" alt="Footer Logo" class="h-12 mx-auto mb-6 opacity-60">
+        <p class="text-gray-600 uppercase tracking-[0.5em] text-[10px]">© 2026 COOL CONNECTION | NIHAL KHAN</p>
+    </footer>
+
+</body>
+</html>
